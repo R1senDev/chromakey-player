@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body, html {
+	width: 100%;
+}
+
+body {
+	background: black;
+	color: #CCCCCC;
+}
+
+#c2 {
+	background-image: url(media/foo.png);
+	background-repeat: no-repeat;
+}
+
+div {
+	float: left;
+	border: 1px solid #444444;
+	padding: 10px;
+	margin: 10px;
+	background: #3B3B3B;
+}

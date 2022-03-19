@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Chroma Key Player</title>
+</head>
+<body>	
+	<div>
+		<video id="video" src="media/video.mp4" controls="true">
+	</div>
+	<div>
+		<canvas id="canvas" width="160" height="96"></canvas>
+	</div>
+	<input type="file" id="file" accept="video/*" onchange="setTimeout('console.log(JSON.stringify(this)); document.getElementById(\'video\').src = this.files[0]', 2000)">
+	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
